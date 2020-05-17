@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_message"
+            android:title="LeaderBoard"/>
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"/>
+
+        <item android:id="@+id/nav_polls"
+            android:icon="@drawable/ic_polls"
+            android:title="upload"/>
+
+        <item android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Logout"/>
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_shareblack"-->
+<!--                android:title="Share"/>-->
+
+<!--            <item android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_sendblack"-->
+<!--                android:title="Send"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

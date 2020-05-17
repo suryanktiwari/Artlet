@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gcolor"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:id="@+id/edit_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Upload"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+
+        />
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:paddingLeft="4dp"-->
+    <!--        android:paddingRight="4dp"-->
+    <!--        android:paddingEnd="4dp"-->
+    <!--        android:paddingBottom="4dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/edit_tv1"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:inputType="text"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:hint="Author Name"-->
+    <!--        />-->
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="4dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_tv1"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:hint="Title"
+        />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="-20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_tv1"
+        android:layout_marginTop="170dp"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:hint="Tags"
+        />
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:paddingLeft="4dp"-->
+    <!--        android:paddingRight="4dp"-->
+    <!--        android:paddingEnd="4dp"-->
+    <!--        android:paddingBottom="4dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/edit_tv1"-->
+    <!--        android:layout_marginTop="150dp"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:inputType="text"-->
+    <!--        android:hint="Genre"-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/edit4"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:paddingLeft="4dp"-->
+    <!--        android:paddingRight="4dp"-->
+    <!--        android:paddingEnd="4dp"-->
+    <!--        android:paddingBottom="4dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/edit_tv1"-->
+    <!--        android:layout_marginTop="200dp"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:inputType="text"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:hint="File Type"-->
+    <!--        />-->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit5"
+        android:layout_marginBottom="-82dp"
+        android:paddingTop="20dp"
+
+        >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit5"
+            android:layout_alignParentRight="true"
+            android:dropDownVerticalOffset="250dp"
+            android:scrollHorizontally="true"
+            android:spinnerMode="dropdown"
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/filebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/drawing"
+        android:textColor="@android:color/black"
+        android:text="Upload"
+        android:layout_marginLeft="2dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

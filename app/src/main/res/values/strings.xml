@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ArtLet</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Search</string>
+    <string name="menu_search">Search</string>
+    <string name="title_activity_search_results">change</string>
+    <string name="title_activity_nav__bar">Nav_Bar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="speak">Speak</string>
+    <string name="back">Back</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    // WILL CHECK LATER - Suryank
+    <string name="order_id_mock" translatable="false">ONE PIECE</string>
+    <string name="price_mock" translatable="false"></string>
+    <string name="requests_count_mock" translatable="false">5</string>
+    <string name="requests_count_badge" translatable="false">LIKES</string>
+    <string name="weight_mock" translatable="false">Oda</string>
+    <string name="weight_badge" translatable="false">ARTIST</string>
+    <string name="pledge_mock" translatable="false">$150</string>
+    <string name="pledge_badge" translatable="false">READ</string>
+    <string name="sender_badge" translatable="false">Artist</string>
+    <string name="client_name_mock" translatable="false">Eiichiro Oda</string>
+    <string name="delivery_date_badge" translatable="false">UPLOAD DATE</string>
+    <string name="delivery_time_mock" translatable="false">6:30 pm</string>
+    <string name="delivery_date_mock" translatable="false"></string>
+    <string name="deadline_badge" translatable="false">Likes</string>
+    <string name="deadline_time_mock" translatable="false">24</string>
+    <string name="request_btn_text" translatable="false">READ</string>
+    <string name="title_activity_pdf_reader">PdfReader</string>
+    <string name="title_activity_file_uploader">FileUploader</string>
+
+
+</resources>

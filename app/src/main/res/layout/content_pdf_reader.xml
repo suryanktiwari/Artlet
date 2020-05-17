@@ -1,0 +1,24 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:id="@+id/pdfName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#666666"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:textStyle="bold"></EditText>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_below="@+id/pdfName"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

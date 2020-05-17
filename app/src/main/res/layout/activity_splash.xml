@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".SplashActivity"
+android:background="@drawable/splashimage"
+android:orientation="vertical"
+android:id="@+id/l3"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:id="@+id/l1"
+    >
+
+    <TextView
+
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ARTLET"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:id="@+id/l2"
+    >
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/dancing_script_bold"
+        android:text="Let Art be an Outlet"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp">
+
+    </TextView>
+
+</LinearLayout>
+
+</LinearLayout>

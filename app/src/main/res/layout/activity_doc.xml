@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/docName"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="#666666"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text ="@string/speak"
+                        android:layout_centerInParent="true"
+                        android:onClick="tts"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/colour_button"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/showText"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:textAlignment="textStart"
+                    />
+
+                <EditText
+                    android:id="@+id/editDoc"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:layout_gravity="bottom"
+            android:id="@+id/btn_save"
+            android:text="Save"
+            android:background="@drawable/colour_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

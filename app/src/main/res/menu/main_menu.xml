@@ -1,0 +1,14 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    android:gravity="end"
+    android:layoutDirection="ltr"
+    android:layout_gravity="end">
+    <group>
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        appcompat:showAsAction="always"
+        appcompat:actionViewClass="android.widget.SearchView" />
+    </group>
+</menu>
